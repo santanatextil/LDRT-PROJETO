@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>LDRT - Doenças Relacionadas ao Trabalho</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header>
+        <h1>Lista de Doenças Relacionadas ao Trabalho (LDRT)</h1>
+        <p>Com base na Portaria GM/MS nº 1.999/2023</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar doença..." onkeyup="searchDisease()" />
+        </div>
+
+        <div class="filters">
+            <label for="categoryFilter">Filtrar por categoria:</label>
+            <select id="categoryFilter" onchange="filterByCategory()">
+                <option value="">Todas as categorias</option>
+                <option value="Infecções">Infecções</option>
+                <option value="Intoxicações">Intoxicações</option>
+                <option value="Doenças auditivas">Doenças auditivas</option>
+                <option value="Doenças respiratórias">Doenças respiratórias</option>
+                <option value="Transtornos mentais">Transtornos mentais</option>
+            </select>
+        </div>
+
+        <ul id="diseaseList"></ul>
+        <button onclick="exportToPDF()">Baixar PDF</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

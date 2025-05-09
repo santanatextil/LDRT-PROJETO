@@ -1,0 +1,42 @@
+{
+    "01": {
+        "title": "Disposições Gerais",
+        "description": "Estabelece diretrizes sobre segurança e saúde no trabalho."
+    },
+    "02": {
+        "title": "Inspeção Prévia",
+        "description": "Obriga a inspeção prévia nas instalações antes do início das atividades."
+    },
+    "03": {
+        "title": "Embargo e Interdição",
+        "description": "Define os critérios para embargo ou interdição de locais de trabalho."
+    },
+    "04": {
+        "title": "Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho",
+        "description": "Determina a obrigatoriedade desses serviços nas empresas."
+    },
+    "05": {
+        "title": "Comissão Interna de Prevenção de Acidentes (CIPA)",
+        "description": "Institui a CIPA como órgão consultivo da empresa."
+    },
+    "06": {
+        "title": "Equipamento de Proteção Individual (EPI)",
+        "description": "Estabelece normas sobre uso obrigatório de EPIs."
+    },
+    "07": {
+        "title": "Ergonomia",
+        "description": "Regulamenta condições de trabalho que envolvem esforço físico, postura, ritmo de trabalho, entre outros."
+    },
+    "08": {
+        "title": "Edificações",
+        "description": "Normas técnicas sobre construção civil e estrutura física do ambiente de trabalho."
+    },
+    "09": {
+        "title": "Instalações Elétricas",
+        "description": "Regras de segurança para instalações elétricas em ambientes de trabalho."
+    },
+    "10": {
+        "title": "Segurança em Instalações e Serviços em Eletricidade",
+        "description": "Normas específicas para trabalhos com eletricidade."
+    }
+}

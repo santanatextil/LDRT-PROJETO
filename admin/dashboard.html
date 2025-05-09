@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel Admin</title>
+</head>
+<body>
+    <h2>Gerenciar Doenças</h2>
+    <input type="text" id="diseaseCode" placeholder="Código">
+    <input type="text" id="diseaseName" placeholder="Nome">
+    <input type="text" id="diseaseCID" placeholder="CID">
+    <input type="text" id="diseaseCategory" placeholder="Categoria">
+    <button onclick="addDisease()">Adicionar</button>
+
+    <ul id="diseaseList"></ul>
+
+    <script>
+        let token = localStorage.getItem("token");
+
+        function addDisease() {
+            const newDisease = {
+                code: document.getElementById("diseaseCode").value,
+                name: document.getElementById("diseaseName").value,
+                cid: document.getElementById("diseaseCID").value,
+                category: document.getElementById("diseaseCategory").value
+            };
+
+            fetch("http://localhost:5000/api/diseases", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${token}`
+                },
+                body: JSON.stringify(newDisease)
+            }).then(() => location.reload());
+        }
+
+        // Carregar doenças
+        fetch("http://localhost:5000/api/diseases", {
+            headers: { "Authorization": `Bearer ${token}` }
+        }).then(res => res.json())
+          .then(data => {
+              const list = document.getElementById("diseaseList");
+              data.forEach(d => {
+                  list.innerHTML += `<li>${d.code}: ${d.name} | ${d.cid}</li>`;
+              });
+          });
+    </script>
+</body>
+</html>

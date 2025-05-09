@@ -1,0 +1,62 @@
+[
+    {
+        "code": "Z110",
+        "name": "Exposição ocupacional a agentes biológicos",
+        "cid": "Z11.0",
+        "category": "Infecções"
+    },
+    {
+        "code": "Z111",
+        "name": "Exposição ocupacional a substâncias químicas",
+        "cid": "Z11.1",
+        "category": "Intoxicações"
+    },
+    {
+        "code": "Z112",
+        "name": "Exposição ocupacional a ruído",
+        "cid": "Z11.2",
+        "category": "Doenças auditivas"
+    },
+    {
+        "code": "Z113",
+        "name": "Exposição ocupacional a vibrações",
+        "cid": "Z11.3",
+        "category": "Doenças musculoesqueléticas"
+    },
+    {
+        "code": "Z114",
+        "name": "Exposição ocupacional a temperaturas extremas",
+        "cid": "Z11.4",
+        "category": "Doenças térmicas"
+    },
+    {
+        "code": "Z115",
+        "name": "Exposição ocupacional a radiações ionizantes",
+        "cid": "Z11.5",
+        "category": "Neoplasias"
+    },
+    {
+        "code": "Z116",
+        "name": "Exposição ocupacional a poeiras inorgânicas",
+        "cid": "Z11.6",
+        "category": "Doenças respiratórias"
+    },
+    {
+        "code": "Z117",
+        "name": "Exposição ocupacional a poeiras orgânicas",
+        "cid": "Z11.7",
+        "category": "Doenças respiratórias"
+    },
+    {
+        "code": "Z118",
+        "name": "Exposição ocupacional a fatores psicossociais",
+        "cid": "Z11.8",
+        "category": "Transtornos mentais"
+    },
+    {
+        "code": "Z119",
+        "name": "Outras doenças relacionadas ao trabalho",
+        "cid": "Z11.9",
+        "category": "Geral"
+    }
+]
