@@ -1,4 +1,4 @@
-{
+{     
     "01": {
         "title": "Disposições Gerais",
         "description": "Estabelece diretrizes sobre segurança e saúde no trabalho."
@@ -39,4 +39,5 @@
         "title": "Segurança em Instalações e Serviços em Eletricidade",
         "description": "Normas específicas para trabalhos com eletricidade."
     }
+
 }
